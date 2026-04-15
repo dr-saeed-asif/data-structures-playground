@@ -1,0 +1,17 @@
+# Node / TypeScript
+node_modules/
+dist/
+*.tsbuildinfo
+
+# .NET / C#
+bin/
+obj/
+*.user
+*.suo
+
+# IDE
+.vscode/
+.idea/
+
+# Logs
+*.log
