@@ -1,6 +1,6 @@
 # Data Structures Playground (TypeScript + C#)
 
-A step-by-step project to master data structures with both **TypeScript** and **C#**, then apply them to real-world mini projects and interview preparation.
+A step-by-step project to master data structures with both TypeScript and C#, then apply them to real-world mini projects and interview preparation.
 
 ## Learning Path
 
@@ -24,7 +24,7 @@ For each mini project:
 - README.md: scenario and requirements
 - solution.ts: TypeScript solution
 - Program.cs: C# solution
-- 	ests.ts: basic test scenarios
+- tests.ts: basic test scenarios
 
 Goal:
 - Apply DS to realistic features
@@ -60,7 +60,7 @@ Goal:
 
 ## Suggested Weekly Step-by-Step Plan
 
-1. Pick 1-2 DS folders in undamentals/
+1. Pick 1-2 DS folders in fundamentals/
 2. Implement in TypeScript first, then C#
 3. Solve one use case in mini-usecases/
 4. Review one file from interview-prep/
@@ -68,7 +68,7 @@ Goal:
 
 ## Quick Start
 
-- Open one folder in undamentals/
+- Open one folder in fundamentals/
 - Run and test your implementation
 - Add your own edge-case tests
 - Commit progress after each topic

@@ -1,6 +1,6 @@
 using System.Collections.Generic;
 
-public class <T>
+public class UnionFind<T>
 {
     private readonly List<T> _items = new();
 

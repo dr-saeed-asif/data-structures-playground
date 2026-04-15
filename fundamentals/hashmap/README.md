@@ -1,4 +1,4 @@
-# 
+# Hashmap
 
 ## Goal
 Implement hashmap in TypeScript and C# with simple operations.

@@ -1,4 +1,4 @@
-# 
+# LinkedList
 
 ## Goal
 Implement linked-list in TypeScript and C# with simple operations.

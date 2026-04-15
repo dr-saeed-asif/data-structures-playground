@@ -1,4 +1,4 @@
-export class <T> {
+export class Set<T> {
   private items: T[] = [];
 
   add(value: T): void {

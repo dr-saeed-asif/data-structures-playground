@@ -1,4 +1,4 @@
-# 
+# Deque
 
 ## Goal
 Implement deque in TypeScript and C# with simple operations.

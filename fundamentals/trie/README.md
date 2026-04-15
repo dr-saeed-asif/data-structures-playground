@@ -1,4 +1,4 @@
-# 
+# Trie
 
 ## Goal
 Implement trie in TypeScript and C# with simple operations.

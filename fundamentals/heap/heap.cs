@@ -1,6 +1,6 @@
 using System.Collections.Generic;
 
-public class <T>
+public class Heap<T>
 {
     private readonly List<T> _items = new();
 

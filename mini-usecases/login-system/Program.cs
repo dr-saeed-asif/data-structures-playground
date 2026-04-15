@@ -10,6 +10,6 @@ public static class Program
 
     public static void Main()
     {
-        Console.WriteLine(" use case starter");
+        Console.WriteLine("Login System use case starter");
     }
 }

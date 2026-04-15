@@ -1,4 +1,4 @@
-# 
+# Arrays
 
 ## Goal
 Implement arrays in TypeScript and C# with simple operations.

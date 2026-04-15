@@ -1,4 +1,4 @@
-# 
+# UnionFind
 
 ## Goal
 Implement union-find in TypeScript and C# with simple operations.

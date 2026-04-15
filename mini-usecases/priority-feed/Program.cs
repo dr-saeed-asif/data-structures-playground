@@ -10,6 +10,6 @@ public static class Program
 
     public static void Main()
     {
-        Console.WriteLine(" use case starter");
+        Console.WriteLine("Priority Feed use case starter");
     }
 }

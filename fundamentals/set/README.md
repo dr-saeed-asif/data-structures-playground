@@ -1,4 +1,4 @@
-# 
+# Set
 
 ## Goal
 Implement set in TypeScript and C# with simple operations.

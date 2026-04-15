@@ -1,4 +1,4 @@
-export class <T> {
+export class Deque<T> {
   private items: T[] = [];
 
   add(value: T): void {

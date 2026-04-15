@@ -1,6 +1,6 @@
 using System.Collections.Generic;
 
-public class <T>
+public class Stack<T>
 {
     private readonly List<T> _items = new();
 

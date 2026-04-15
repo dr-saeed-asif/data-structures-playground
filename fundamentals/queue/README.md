@@ -1,4 +1,4 @@
-# 
+# Queue
 
 ## Goal
 Implement queue in TypeScript and C# with simple operations.

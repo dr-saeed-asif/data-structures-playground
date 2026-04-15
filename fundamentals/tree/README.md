@@ -1,4 +1,4 @@
-# 
+# Tree
 
 ## Goal
 Implement tree in TypeScript and C# with simple operations.

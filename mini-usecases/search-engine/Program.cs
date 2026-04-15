@@ -10,6 +10,6 @@ public static class Program
 
     public static void Main()
     {
-        Console.WriteLine(" use case starter");
+        Console.WriteLine("Search Engine use case starter");
     }
 }

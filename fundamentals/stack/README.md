@@ -1,4 +1,4 @@
-# 
+# Stack
 
 ## Goal
 Implement stack in TypeScript and C# with simple operations.

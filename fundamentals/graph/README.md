@@ -1,4 +1,4 @@
-# 
+# Graph
 
 ## Goal
 Implement graph in TypeScript and C# with simple operations.

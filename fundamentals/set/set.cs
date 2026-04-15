@@ -1,6 +1,6 @@
 using System.Collections.Generic;
 
-public class <T>
+public class Set<T>
 {
     private readonly List<T> _items = new();
 

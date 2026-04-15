@@ -1,4 +1,4 @@
-# 
+# Heap
 
 ## Goal
 Implement heap in TypeScript and C# with simple operations.

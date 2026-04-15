@@ -1,4 +1,4 @@
-export class <T> {
+export class LinkedList<T> {
   private items: T[] = [];
 
   add(value: T): void {
