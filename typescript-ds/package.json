@@ -1,0 +1,15 @@
+{
+  "name": "typescript-ds",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "test:priority-feed": "ts-node mini-usecases/priority-feed/tests.ts",
+    "test:login-system": "ts-node mini-usecases/login-system/tests.ts",
+    "test:all": "npm run test:priority-feed && npm run test:login-system"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  }
+}
