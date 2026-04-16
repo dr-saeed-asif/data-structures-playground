@@ -1,15 +1,27 @@
 {
-  "name": "typescript-ds",
-  "version": "1.0.0",
-  "private": true,
-  "scripts": {
-    "test:priority-feed": "ts-node mini-usecases/priority-feed/tests.ts",
-    "test:login-system": "ts-node mini-usecases/login-system/tests.ts",
-    "test:all": "npm run test:priority-feed && npm run test:login-system"
-  },
-  "devDependencies": {
-    "@types/node": "^24.0.0",
-    "ts-node": "^10.9.2",
-    "typescript": "^5.9.3"
-  }
+    "name":  "typescript-ds",
+    "version":  "1.0.0",
+    "private":  true,
+    "devDependencies":  {
+                            "@types/node":  "^24.0.0",
+                            "ts-node":  "^10.9.2",
+                            "typescript":  "^5.9.3"
+                        },
+    "scripts":  {
+                    "test:priority-feed":  "ts-node mini-usecases/priority-feed/tests.ts",
+                    "test:login-system":  "ts-node mini-usecases/login-system/tests.ts",
+                    "test:all":  "npm run test:priority-feed \u0026\u0026 npm run test:login-system",
+                    "run:array":  "ts-node fundamentals/arrays/run-array.ts",
+                    "run:hashmap":  "ts-node fundamentals/hashmap/run-hashmap.ts",
+                    "run:stack":  "ts-node fundamentals/stack/run-stack.ts",
+                    "run:queue":  "ts-node fundamentals/queue/run-queue.ts",
+                    "run:linked-list":  "ts-node fundamentals/linked-list/run-linked-list.ts",
+                    "run:tree":  "ts-node fundamentals/tree/run-tree.ts",
+                    "run:graph":  "ts-node fundamentals/graph/run-graph.ts",
+                    "run:heap":  "ts-node fundamentals/heap/run-heap.ts",
+                    "run:set":  "ts-node fundamentals/set/run-set.ts",
+                    "run:trie":  "ts-node fundamentals/trie/run-trie.ts",
+                    "run:deque":  "ts-node fundamentals/deque/run-deque.ts",
+                    "run:union-find":  "ts-node fundamentals/union-find/run-union-find.ts"
+                }
 }

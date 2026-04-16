@@ -1,4 +1,5 @@
 export class DynamicArray<T> {
+  // Internal storage; methods expose controlled access around this array.
   private items: T[] = [];
 
   append(value: T): void {
@@ -10,6 +11,7 @@ export class DynamicArray<T> {
   }
 
   insertAt(index: number, value: T): void {
+    // Allow insert at length (append position), but never outside valid range.
     if (index < 0 || index > this.items.length) {
       throw new RangeError("Index out of range");
     }
@@ -20,11 +22,13 @@ export class DynamicArray<T> {
     if (index < 0 || index >= this.items.length) {
       throw new RangeError("Index out of range");
     }
+    // splice returns an array; we return the single removed element.
     const [removed] = this.items.splice(index, 1);
     return removed;
   }
 
   get(index: number): T {
+    // Read with explicit bounds check for predictable error behavior.
     if (index < 0 || index >= this.items.length) {
       throw new RangeError("Index out of range");
     }
@@ -35,6 +39,7 @@ export class DynamicArray<T> {
     if (index < 0 || index >= this.items.length) {
       throw new RangeError("Index out of range");
     }
+    // In-place update of existing index.
     this.items[index] = value;
   }
 
@@ -47,6 +52,7 @@ export class DynamicArray<T> {
   }
 
   reverse(): void {
+    // Mutates internal order in place.
     this.items.reverse();
   }
 
@@ -59,6 +65,7 @@ export class DynamicArray<T> {
   }
 
   toArray(): T[] {
+    // Return a copy so callers cannot mutate internal storage directly.
     return [...this.items];
   }
 }
