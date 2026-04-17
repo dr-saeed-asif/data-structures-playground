@@ -27,3 +27,15 @@ console.log("size:", ds.size());
 
 // Check whether array is empty.
 console.log("isEmpty:", ds.isEmpty());
+
+// Sorting example (ascending).
+ds.sort((a, b) => a - b);
+console.log("sorted:", ds.toArray());
+
+// Filtering example.
+console.log("filtered (> 6):", ds.filter((x) => x > 6));
+
+// Searching examples.
+console.log("find (> 10):", ds.find((x) => x > 10));
+console.log("findIndex (= 20):", ds.findIndex((x) => x === 20));
+console.log("search (= 7):", ds.search((x) => x === 7));

@@ -51,6 +51,31 @@ export class DynamicArray<T> {
     return this.indexOf(value) !== -1;
   }
 
+  // Sorts internal storage in place using provided comparator.
+  sort(compareFn?: (a: T, b: T) => number): void {
+    this.items.sort(compareFn);
+  }
+
+  // Returns a new array with items matching the predicate.
+  filter(predicate: (value: T, index: number) => boolean): T[] {
+    return this.items.filter(predicate);
+  }
+
+  // Returns the first item matching predicate, if any.
+  find(predicate: (value: T, index: number) => boolean): T | undefined {
+    return this.items.find(predicate);
+  }
+
+  // Returns index of first item matching predicate, or -1.
+  findIndex(predicate: (value: T, index: number) => boolean): number {
+    return this.items.findIndex(predicate);
+  }
+
+  // Linear search with custom matcher.
+  search(predicate: (value: T, index: number) => boolean): T | undefined {
+    return this.find(predicate);
+  }
+
   reverse(): void {
     // Mutates internal order in place.
     this.items.reverse();

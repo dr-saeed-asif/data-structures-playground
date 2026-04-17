@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using System.Linq;
 
 public class DynamicArray<T>
 {
@@ -38,6 +39,23 @@ public class DynamicArray<T>
     public int IndexOf(T value) => _items.IndexOf(value);
 
     public bool Contains(T value) => _items.Contains(value);
+
+    public void Sort(Comparison<T>? comparison = null)
+    {
+        if (comparison is null)
+        {
+            _items.Sort();
+            return;
+        }
+
+        _items.Sort(comparison);
+    }
+
+    public List<T> Filter(Func<T, bool> predicate) => _items.Where(predicate).ToList();
+
+    public T? Find(Func<T, bool> predicate) => _items.FirstOrDefault(predicate);
+
+    public int FindIndex(Predicate<T> predicate) => _items.FindIndex(predicate);
 
     public void Reverse() => _items.Reverse();
 
