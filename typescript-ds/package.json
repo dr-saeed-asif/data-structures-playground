@@ -8,7 +8,7 @@
                             "typescript":  "^5.9.3"
                         },
     "scripts":  {
-                    "test:priority-feed":  "ts-node mini-usecases/priority-feed/tests.ts",
+                    "test:priority-feed":  "ts-node mini-usecases/arrays/priority-feed/tests.ts",
                     "test:login-system":  "ts-node mini-usecases/login-system/tests.ts",
                     "test:all":  "npm run test:priority-feed \u0026\u0026 npm run test:login-system",
                     "run:array":  "ts-node fundamentals/arrays/run-array.ts",
