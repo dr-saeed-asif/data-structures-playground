@@ -14,3 +14,4 @@ See **`arrays/README.md`** for the list of projects inside.
 - `undo-redo/` — two stacks for history
 - `social-network/` — follow relationships
 - `network-connectivity/` — union–find connectivity
+- `tree/` — hierarchical folder index
